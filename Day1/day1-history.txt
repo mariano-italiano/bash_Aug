@@ -1,0 +1,256 @@
+sudo cp -rp /usr/bin/ls /usr/bin/testowanie
+testowanie
+ls
+sudo rm -rf /usr/bin/testowanie
+testowanie
+echo $PATH
+ls -la /usr/bin | grep bash
+ls -la /usr/bin
+ls -la /usr/bin | wc -l
+ls -l /usr/bin/bash
+vi /usr/bin/bash
+file /usr/bin/bash
+ls
+file Foto.jpg
+ls -la
+file .bash_history
+echo "Testuje path = $PATH"
+echo 'Testuje path = $PATH'
+TEST123="testujemy basha"
+echo $TEST123
+echo \$TEST123
+ls -la
+ls -la | cut -d" " -f 1,6
+ls -la | cat 
+ls -la | grep ^.
+ls -la | grep mozilla
+ls -la | grep d*
+ls
+ls | grep D*
+vi hello_world
+./hello_world
+ls -la hello_world 
+umask
+chmod +x hello_world 
+ls -l
+chmod 744 hello_world 
+ls -l
+./hello_world 
+bash hello_world 
+vi hello_world
+ls -la /bin/sh
+vi hello_world
+./hello_world 
+echo $? 
+vi hello_world
+./hello_world 
+echo $? 
+catt .bashrc 
+echo $? 
+vi backup.sh
+vi hello_world 
+vi backup.sh
+./backup.sh
+chmod +x backup.sh 
+./backup.sh
+vi backup.sh
+./backup.sh
+vi backup.sh
+./backup.sh
+ls -la /usr/bin/sudo
+vi backup.sh 
+./backup
+./backup.sh 
+vi backup.sh 
+./backup.sh 
+echo $?
+./backup.sh 
+vi backup.sh 
+rm -rf backup
+./backup.sh 
+ls -la
+vi backup.sh 
+./backup.sh 
+echo $?
+vi backup.sh 
+./backup.sh 
+echo $?
+vi backup.sh 
+vi argumenty.sh
+chmod +x argumenty.sh 
+./argumenty.sh test 123
+vi argumenty.sh
+./argumenty.sh test 123
+vi argumenty.sh
+./argumenty.sh test 123 trzeci czwarty piaty
+vi argumenty.sh
+vi backup.sh 
+./backup
+./backup.sh 
+ls -la
+ls -la > katalogi.txt
+less katalogi.txt 
+ls -la >> katalogi.txt
+less katalogi.txt 
+date > katalogi.txt
+less katalogi.txt 
+vi unsorted.txt
+cat unsorted.txt
+sort < unsorted.txt 
+sort < unsorted.txt > sorted.txt
+cat sorted.txt 
+catt katalogi.txt 
+catt katalogi.txt 2>/dev/null
+ls -la 1> katalogi.txt
+less katalogi.txt 
+sort 0< unsorted.txt 
+sort 1< unsorted.txt 
+vi unsorted.txt 
+uniq unsorted.txt 
+uniq < unsorted.txt 
+uniq -h
+uniq --help
+uniq -u unsorted.txt 
+cat unsorted.txt | uniq
+cat unsorted.txt | uniq -u
+cat unsorted.txt | uniq -d
+uniq -d unsorted.txt 
+vi unsorted.txt 
+uniq --repeated unsorted.txt 
+vi unsorted.txt 
+uniq --repeated unsorted.txt 
+uniq -u unsorted.txt 
+uniq -D unsorted.txt 
+which uniq
+man uniq
+cat unsorted.txt | grep -i Kot
+cat unsorted.txt | grep -e alicja -e adam
+man tr
+head unsorted.txt 
+vi unsorted.txt 
+head unsorted.txt 
+head -2 unsorted.txt 
+head -4unsorted.txt 
+head -4 unsorted.txt 
+tail -2 unsorted.txt 
+tail -f unsorted.txt 
+vi backup.sh 
+./backup.sh 
+ls -la
+vi errors.log
+vi backup.sh 
+./backup.sh 
+rm errors.log 
+./backup.sh 
+vi backup.sh 
+cat unsorted.txt 
+vi unsorted.txt 
+cat unsorted.txt 
+cat unsorted.txt | grep bolek
+grep bolek unsorted.txt 
+nc
+man nc
+echo $TEst
+echo $TEST
+TEST="1,6"
+TEST2=128
+TEST3="jakis tekst"
+echo $TEST $TEST2 $TEST3
+vi backup.sh 
+./backup.sh 
+vi backup.sh 
+./backup.sh 
+env
+echo $PATH
+echo $USER
+echo $SHELL
+echo $HOME
+vi backup.sh 
+./backup.sh 
+vi backup.sh 
+echo $ERRORS
+vi backup.sh 
+vi updateLogfile.sh
+vi backup.sh 
+chmod +x updateLogfile.sh 
+./backup.sh 
+LICZBY=(1 2 3 4 "piec" "szesc szesc szesc" siedem)
+echo $LICZBY
+echo ${LICZBY[@]}
+echo ${LICZBY[*]}
+echo ${LICZBY[6]}
+echo ${LICZBY[5]}
+echo ${#LICZBY[*]}
+echo ${LICZBY[*]}
+echo ${!LICZBY[*]}
+LICZBY+=(osiem)
+echo ${LICZBY[*]}
+echo ${LICZBY[@]:4:8}
+echo ${LICZBY[@]:4:7}
+echo ${LICZBY[@]:4}
+TABLICA=(a1 b2 c3 {1..4} {a-d})
+echo ${TABLICA[*]}
+unset TABLICA 
+echo ${TABLICA[*]}
+TABLICA=(a1 b2 c3 {1..4} {a..d})
+echo ${TABLICA[*]}
+TABLICA+=({k..u})
+TABLICA=(a1 b2 c3 {1..4} {a..d})
+TABLICA+=({k..u})
+echo ${TABLICA[*]}
+vi backup.sh 
+./backup.sh 
+vi backup.sh 
+echo $PATH
+vi backup.sh 
+./backup.sh 
+ls -la
+ls -la backup2/
+ls -la
+ls -la /usr/bin/ /usr/sbin/
+ls -la /usr/
+ls -la
+vi backup.sh 
+./backup.sh 
+vi backup.sh 
+date
+man date
+date +"%Y%m%d"
+date +"%Y%m%d_%h%M"
+date +"%Y%m%d_%H%M"
+date +"%Y%m%d_%H%M%S"
+vi backup.sh 
+./backup.sh 
+ls -la
+vi backup.sh 
+./backup.sh 
+ls -la logfile*
+echo test\
+echo test
+echo test > test
+cat testtest
+cat <(echo test)
+vi silnia.sh
+chmod +x silnia.sh 
+./silnia.sh 3
+./silnia.sh 8
+vi silnia.sh
+vi utworz_katalogi.sh
+chmod +x utworz_katalogi.sh 
+./utworz_katalogi.sh katalog1 3 2
+vi utworz_katalogi.sh
+./utworz_katalogi.sh katalog1 3 2
+tree 
+vi utworz_katalogi.sh
+./utworz_katalogi.sh katalog1 3 2
+cd /
+ls -la
+find / -name katalog1
+find / -name katalog1 2>dev/nul
+cd
+vi utworz_katalogi.sh
+./utworz_katalogi.sh 2 3 4
+ls -la
+vi utworz_katalogi.sh
+./utworz_katalogi.sh katalog1 3 4
+tree katalog1
