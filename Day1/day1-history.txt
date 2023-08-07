@@ -254,3 +254,246 @@ ls -la
 vi utworz_katalogi.sh
 ./utworz_katalogi.sh katalog1 3 4
 tree katalog1
+
+
+
+
+git status
+git add .
+git status
+git commit -m "Day1 history file"
+git push
+cd
+cat << EOF
+
+
+
+ee
+ek
+
+cat << TEST
+da
+SA
+d 
+
+
+cat <<< "Czesc $USER"
+cat <(echo Czesc $USER)
+cat << EOF
+USER
+
+
+vi heredoc.sh
+chmod +x heredoc.sh
+./heredoc.sh 
+ls -la plik*
+cat plik1
+cat plik2
+cat plik3
+vi heredoc.sh
+./heredoc.sh 
+cat plik3
+./heredoc.sh 
+vi heredoc.sh
+./heredoc.sh 
+cat plik2
+cat plik3
+vi heredoc.sh
+./heredoc.sh 
+cat plik3
+cat plik2
+vi heredoc.sh
+./heredoc.sh 
+cat plik3
+vi heredoc.sh
+./heredoc.sh 
+cat plik3
+vi heredoc.sh
+./heredoc.sh 
+cat plik4
+./heredoc.sh 
+vi heredoc.sh
+./heredoc.sh 
+cat plik1
+cat plik2
+cat plik
+cat plik3
+vi heredoc.sh
+echo
+echo -n "test"
+echo -e "test \c"
+man echo
+echo -e "test \v"
+echo -e "test \t"
+echo -e "test \c"
+read
+echo $REPLY
+vi backup.sh 
+./backup.sh 
+ls -la
+vi backup.sh 
+./backup.sh 
+ls -la mojlog
+ls -la
+vi backup.sh 
+./backup.sh 
+ls -la
+vi backup.sh 
+ls -la
+./backup.sh 
+ls -la mojlog 
+
+vi backup.sh 
+./backup.sh 
+vi backup.sh 
+./backup.sh 
+ls -la test
+vi backup.sh 
+./backup.sh 
+ls -la test
+ls -la test*
+vi backup.sh 
+echo -n _;date +"%Y%m%d_%H%M%S.log"
+vi backup.sh 
+./backup.sh 
+ls -la last123_20230807_141033.log 
+vi backup.sh 
+./backup.sh 
+ls -al backupzread_20230807_141254.log 
+man read\
+man read
+read -n1 -p "Press any key to continue..."; echo 
+read -n5 -p "Press any key to continue..."; echo 
+man read
+read --s p -p "Podaj hasło: " PASS
+read --s p -p "Podaj hasło: "
+read -s p -p "Podaj hasło: " PASS
+read -s -p "Podaj haslo: " PASS
+echo $PASS
+ZMIENNA10=${TEST:-testvalue}
+echo $ZMIENNA10
+echo $TEST
+echo $TEST123
+echo $TEST1234
+ZMIENNA10=${TEST1234:-testvalue}
+echo $ZMIENNA10
+VAR1=${zmienna1:-wartosc1} 
+echo $WAR1
+echo $VAR1
+vi backup.sh 
+./backup.sh 
+ls -la backup_logfile_20230807_143320.log
+less backup_logfile_20230807_143320.log
+./backup.sh 
+ls -la backup-logfile 
+less backup-logfile
+ls -la /tmp
+./backup.sh 
+ls -la /tmp/home-student-backup/
+ls -h
+cat -h
+cat --help
+vi backup.sh 
+./backup.sh 
+./backup.sh -f getopts_logs
+./backup.sh -f getopts_logs -s /home/student/* -d /tmp/getopts-backup
+ls -la getopts_logs_20230807_145903.log 
+cat getopts_logs_20230807_145903.log
+ls -la /tmp
+vi backup.sh 
+./backup.sh -f getopts_logs -s /home/student/* -d /tmp/getopts-backup
+ls -la //tmp/getopts-backup
+ls -la /tmp/getopts-backup
+vi backup.sh 
+./backup.sh -f getopts_logs -s /home/student/* -d /tmp/getopts-backup
+ls -la /tmp/getopts-backup
+vi backup.sh 
+./backup.sh -f getopts_logs -s /home/student/* -d /tmp/getopts-backup
+vi backup.sh 
+./backup.sh -f getopts_logs -s /home/student/* -d /tmp/getopts-backup
+./backup.sh -f getopts_logs -s /home/student/ -d /tmp/getopts-backup
+ls -la /tmp/getopts-backup/
+less getopts_logs
+vi backup.sh 
+./backup.sh -f getopts_logs -s /home/student/ -d /tmp/getopts-backup
+ls -la /tmp/getopts-backup/
+ls -la /tmp/getopts-backup/student/
+vi backup.sh 
+echo -e "\033[31mERROR MESSAGE: MESSAGE"
+echo -e "\033[31mERROR MESSAGE: MESSAGE\033[0m"
+echo -e "\033[32mRESULT: SUCCESS\033[0m"
+echo -e "\033[34mRESULT: SUCCESS\033[0m"
+echo -e "\033[36mRESULT: SUCCESS\033[0m"
+echo -e "\033[33mRESULT: SUCCESS\033[0m"
+vi backup.sh 
+./backup.sh -f getopts_logs -s /home/student/ -d /tmp/getopts-backup2
+vi backup.sh 
+./backup.sh -f getopts_logs -s /home/student/ -d /tmp/getopts-backup2
+vi backup.sh 
+./backup.sh -f getopts_logs -s /home/student/ -d /tmp/getopts-backup2
+vi backup.sh 
+./backup.sh -f getopts_logs -s /home/student/ -d /tmp/getopts-backup3
+vi backup.sh 
+./backup.sh -f getopts_logs -s /home/student/ -d /tmp/getopts-backup4
+uname 
+uname -a
+uname -r
+ssh-keygen 
+ping centos7\
+ping centos7
+ping centos8
+ping centos8-client
+ssh-copy-id centos8-client
+ssh-copy-id centos7
+ssh 'centos7'
+ssh 'centos8-client
+ssh 'centos8-client'
+ssh 'centos7'
+ssh-copy-id centos8-server
+vi lab1.sh
+chmod +x lab1.sh
+./lab1.sh 
+vi lab1.sh
+./lab1.sh -s centos8-client
+./lab1.sh -s centos8-server
+./lab1.sh -s centos7
+for i in "192.168.1.70" "192.168.1.81" ; do ./lab1.sh -s $i; done
+vi lab1.sh 
+for i in "192.168.1.70" "192.168.1.81" ; do ./lab1.sh -s $i; done
+ping centos8-client
+ping centos8-server
+for i in "192.168.1.82" "192.168.1.81" ; do ./lab1.sh -s $i; done
+vi lab1.sh 
+cd /tmp
+git clone https://github.com/marcin-kujawski/linux.git
+ping wp.pl
+scp localadmin@4.231.19.233:/home/localadmin/linux .
+scp -R localadmin@4.231.19.233:/home/localadmin/linux .
+ping 4.231.19.233
+systemctl status firewalld.service 
+systemctl stop firewalld
+sudo systemctl stop firewalld
+ping 4.231.19.233
+telnet 4.231.19.233 22
+curl -v telnet://4.231.19.233:22
+scp -R localadmin@4.231.19.233:/home/localadmin/linux .
+scp -R localadmin@4.231.19.233:/home/localadmin/linux* .
+ip a s
+ls -la
+cd linux/
+ls -la
+cd bash_scripting/
+ls
+cp -rp r01-podstawy-bash/ ~/bash_Aug/Day1/
+cp -rp r02-deklarowanie-zmiennych/ ~/bash_Aug/Day1/
+cp -rp r03-heredoc/ ~/bash_Aug/Day1/
+cp -rp r04-tworzenie-interaktywnych-skryptow/ ~/bash_Aug/Day1/
+git add .
+git status
+cd ~/bash_Aug/Day1/
+git status
+git add .
+git status
+git commit -m "Adding day1 scripts"
+gitpush
+git push
