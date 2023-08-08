@@ -1,0 +1,221 @@
+chmod -r .bashrc 
+ls -la .bashrc
+./testBrackets.sh 
+rm test
+chmod +r .bashrc 
+./testBrackets.sh 
+vi testBrackets.sh 
+libcza1=10
+liczba2=20
+[ $liczba1 -eq $liczba2 ]
+[[ $liczba1 -eq $liczba2 ]]
+echo $?
+[[ $liczba1 -lt $liczba2 ]]
+echo $?
+[ -n $tekst1]
+echo $?
+[ -z $SHELL]
+[[ -z $SHELL]]
+[[ -z $SHELL ]]
+echo $?
+[[ -d .bashrc ]]
+echo $?
+[[ -d .ssh ]]
+echo $?
+ls -la test
+touch test
+ls -la test
+[[ -s test ]]
+echo $?
+echo testtestet>test
+ls -la test
+[[ -s test ]]
+echo $?
+cat /proc/partitions 
+[[ -b /dev/sda1 ]]
+echo $?
+
+ps -ef | grep ssh
+cd /dev/
+ls -la
+cd
+[[ -b /dev/tty1 ]]
+echo $?
+[[ -c /dev/tty1 ]]
+echo $?
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir1
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir1
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir1
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir1
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir1
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir1
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir2
+vi backup.sh 
+./backup.sh 
+./backup.sh -f logfileDay2 -s /home/student 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir3
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir4
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir4
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir4
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir4
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir4
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir4
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir4
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir4
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir4
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir4
+vi backup.sh 
+date +%s.%N
+man bc
+vi kalkulator.sh
+chmod +x kalkulator.sh 
+./kalkulator.sh 
+vi kalkulator.sh 
+./kalkulator.sh 
+vi kalkulator.sh 
+ls -la
+for element in 1 2 3 ; do echo $i; done
+for element in 1 2 3 ; do echo $element; done
+for element in `ls -l` ; do echo $element; done
+for element in `ls` ; do echo $element; done
+for element in $(ls) ; do echo $element; done
+for item in `seq 1 10` ; do echo "Element $item"; done
+for item in one two "three four" ; do echo "Element $item"; done
+LICZBY=(1 2 5 9)
+echo $LICZBY[@]
+echo ${LICZBY[@]}
+for i in "${LICZBY[@]}" ; do echo "Element listy: $i; done
+for i in "${LICZBY[@]}" ; do echo "Element listy: $i"; done
+ls 
+cat plik1
+cat plik2
+for i in plik1 plik2; do cat $i; done
+for i in plik1 plik2; do cat $i; echo "--------------";  done
+for item in {1..10} ; do echo "Element $item"; done
+vi for.sh
+chmod +x for.sh 
+./for.sh 
+vi for.sh
+./for.sh 
+vi for.sh
+./for.sh 
+vi for.sh
+./for.sh 
+vi for.sh
+./for.sh 
+vi for.sh
+vi backup.sh 
+find /usr/bin -perm /u+s
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir5
+ls -la /tmp/backup-dir5/setuid.list
+less /tmp/backup-dir5/setuid.list
+vi while.sh
+chmod +x while.sh 
+./while.sh 
+vi while.sh
+./while.sh 
+vi while.sh
+./while.sh 
+vi while.sh
+./while.sh 
+vi while.sh
+./while.sh 
+vi while.sh
+./while.sh 
+vi while.sh
+./while.sh 
+vi while.sh
+./while.sh 
+vi while.sh
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir6
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir6
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir6
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir7
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir8
+vi backup.sh 
+df -gh
+df -h
+ls -lah /tmp/backup*
+ls -lah /tmp
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir9
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir8
+vi sprawdz.sh
+chmod +x sprawdz.sh 
+./sprawdz.sh 
+mkdir Videos/testVideo
+./sprawdz.sh 
+vi sprawdz.sh
+./sprawdz.sh 
+vi sprawdz.sh
+./sprawdz.sh 
+vi sprawdz.sh
+./sprawdz.sh 
+vi sprawdz.sh
+./sprawdz.sh 
+vi sprawdz.sh
+./sprawdz.sh 
+vi backup.sh 
+less /tmp/backup-dir8/setuid.list 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir10
+less /tmp/backup-dir10/setuid.list 
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir10
+vi backup.sh 
+find /usr/bin -perm /u+s
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir10
+vi backup.sh 
+less /tmp/backup-dir10/setuid.list
+vi backup.sh 
+ip a | grep inet | grep ens | awk '{print $2}'
+ip a | grep inet
+vi lab3.sh
+user.csv
+vi user.csv
+chmod +x lab3.sh 
+./lab3.sh 
+cat /etc/passwd
+./lab3.sh -f  user.csv
+ls -la welcome_*
+rm -rf welcome_*
+vi lab3.sh
+./lab3.sh -f  user.csv
+less welcome_adam.txt
+cat /etc/passwd
+vi user.csv 
+vi lab3.sh
+kill -l
+vi ctrc.sh
+chmod +x ctrc.sh
+./ctrc.sh 
+vi ctrc.sh
+./ctrc.sh 
+vi ctrc.sh
+./ctrc.sh 
+vi backup.sh 
+./backup.sh -f logfileDay2 -s /home/student -d /tmp/backup-dir10
+vi backup.sh 
+history
+mkdir bash_Aug/Day2
+history | awk '$1 > 780' | cut -c 8- > bash_Aug/day2-history.txt
